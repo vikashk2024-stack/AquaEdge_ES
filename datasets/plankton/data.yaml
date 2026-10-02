@@ -1,0 +1,10 @@
+names:
+  0: Chlorella
+  1: Scenedesmus
+  2: Navicula
+  3: Microcystis
+  4: Euglena
+nc: 5
+train: images/train
+val: images/val
+test: images/test

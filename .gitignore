@@ -1,0 +1,27 @@
+# AquaEdge .gitignore
+
+# Python/Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# Datasets and runs
+datasets/raw/
+datasets/plankton/images/
+datasets/plankton/labels/
+runs/
+models/
+
+# Keep reports and scripts
+!datasets/reports/
+!datasets/plankton/data.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
