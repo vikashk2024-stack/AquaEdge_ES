@@ -15,6 +15,11 @@ ENV/
 datasets/raw/
 datasets/plankton/images/
 datasets/plankton/labels/
+datasets/plankton/new-data-set/train/
+datasets/plankton/new-data-set/valid/
+datasets/plankton/new-data-set/test/
+datasets/plankton_5class/images/
+datasets/plankton_5class/labels/
 runs/
 models/
 

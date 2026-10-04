@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Anabaena', 'Chlorella', 'Cosmarium', 'Cryptomonas', 'Cyclotella', 'Euglena', 'Melosira', 'Microcystis', 'Navicula', 'Oscillatoria', 'Pseudanabaena', 'Scenedesmus', 'Synedra']
+
+roboflow:
+  workspace: mlaaw
+  project: algae-1k0jd-24mih
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mlaaw/algae-1k0jd-24mih/dataset/1
